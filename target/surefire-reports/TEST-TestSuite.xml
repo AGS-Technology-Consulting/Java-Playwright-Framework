@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="28.767" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework/target/test-classes:/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework/target/classes:/Users/pravingamit/.m2/repository/com/microsoft/playwright/playwright/1.48.0/playwright-1.48.0.jar:/Users/pravingamit/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/pravingamit/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/pravingamit/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/pravingamit/.m2/repository/com/microsoft/playwright/driver/1.48.0/driver-1.48.0.jar:/Users/pravingamit/.m2/repository/com/microsoft/playwright/driver-bundle/1.48.0/driver-bundle-1.48.0.jar:/Users/pravingamit/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/pravingamit/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/pravingamit/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/pravingamit/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/pravingamit/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/pravingamit/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/pravingamit/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/Users/pravingamit/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/Users/pravingamit/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:/Users/pravingamit/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/pravingamit/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework/target/surefire/surefirebooter-20251231114800591_3.jar /Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework/target/surefire 2025-12-31T11-48-00_545-jvmRun1 surefire-20251231114800591_1tmp surefire_0-20251231114800591_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework/target/test-classes:/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework/target/classes:/Users/pravingamit/.m2/repository/com/microsoft/playwright/playwright/1.48.0/playwright-1.48.0.jar:/Users/pravingamit/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/pravingamit/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/pravingamit/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/pravingamit/.m2/repository/com/microsoft/playwright/driver/1.48.0/driver-1.48.0.jar:/Users/pravingamit/.m2/repository/com/microsoft/playwright/driver-bundle/1.48.0/driver-bundle-1.48.0.jar:/Users/pravingamit/.m2/repository/org/testng/testng/7.9.0/testng-7.9.0.jar:/Users/pravingamit/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/pravingamit/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/pravingamit/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.3.1/httpclient5-5.3.1.jar:/Users/pravingamit/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/Users/pravingamit/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/Users/pravingamit/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/Users/pravingamit/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/Users/pravingamit/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:/Users/pravingamit/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/pravingamit/.m2/repository/org/slf4j/slf4j-simple/2.0.9/slf4j-simple-2.0.9.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/pravingamit"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-10-21"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk/25.0.1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="apple.awt.application.name" value="ForkedBooter"/>
+    <property name="surefire.real.class.path" value="/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework/target/surefire/surefirebooter-20251231114800591_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="25.0.1"/>
+    <property name="user.name" value="pravingamit"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.2"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value=""/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/pravingamit/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/32/1d9lzvmj3jg9q9f548rmgtfc0000gn/T/"/>
+    <property name="java.version" value="25.0.1"/>
+    <property name="user.dir" value="/Users/pravingamit/Documents/Personal/ags-frameworkds/Playwright-Java-Framework"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="headless" value=""/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="baseUrl" value=""/>
+    <property name="java.library.path" value="/Users/pravingamit/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="25.0.1"/>
+    <property name="stdin.encoding" value="UTF-8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="testVerifyLoginPageElements" classname="com.ags.tests.LoginTest" time="3.491">
+    <system-err><![CDATA[[main] INFO com.ags.tests.BaseTest - ===============================================================
+[main] INFO com.ags.tests.BaseTest - 🎯 Playwright Java Framework Starting
+[main] INFO com.ags.tests.BaseTest - ===============================================================
+[main] INFO com.ags.tests.BaseTest - 💻 Browser: chromium
+[main] INFO com.ags.tests.BaseTest - 🎭 Headless: true
+[main] INFO com.ags.tests.BaseTest - ===============================================================
+[main] INFO com.ags.tests.BaseTest - ✅ Browser initialized
+[main] INFO com.ags.helpers.APIHelper - ⚠️  Local run detected - Skipping API calls
+[main] INFO com.ags.tests.BaseTest - 🧪 TC-01: Verify Login Page Elements
+[main] INFO com.ags.pages.BasePage - Navigated to: https://the-internet.herokuapp.com/login
+[main] INFO com.ags.tests.BaseTest - ✅ TC-01 Passed
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithValidCredentials" classname="com.ags.tests.LoginTest" time="4.574">
+    <system-err><![CDATA[[main] INFO com.ags.helpers.APIHelper - Test completed: testVerifyLoginPageElements - PASSED (3493ms)
+[main] INFO com.ags.tests.BaseTest - 🧪 TC-02: Login With Valid Credentials
+[main] INFO com.ags.pages.BasePage - Navigated to: https://the-internet.herokuapp.com/login
+[main] INFO com.ags.pages.BasePage - Filled text into: #username
+[main] INFO com.ags.pages.BasePage - Filled text into: #password
+[main] INFO com.ags.pages.BasePage - Clicked: button[type='submit']
+[main] INFO com.ags.tests.BaseTest - ✅ TC-02 Passed
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithInvalidUsername" classname="com.ags.tests.LoginTest" time="4.484">
+    <system-err><![CDATA[[main] INFO com.ags.helpers.APIHelper - Test completed: testLoginWithValidCredentials - PASSED (4576ms)
+[main] INFO com.ags.tests.BaseTest - 🧪 TC-03: Login With Invalid Username
+[main] INFO com.ags.pages.BasePage - Navigated to: https://the-internet.herokuapp.com/login
+[main] INFO com.ags.pages.BasePage - Filled text into: #username
+[main] INFO com.ags.pages.BasePage - Filled text into: #password
+[main] INFO com.ags.pages.BasePage - Clicked: button[type='submit']
+[main] INFO com.ags.tests.BaseTest - ✅ TC-03 Passed
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithInvalidPassword" classname="com.ags.tests.LoginTest" time="4.513">
+    <system-err><![CDATA[[main] INFO com.ags.helpers.APIHelper - Test completed: testLoginWithInvalidUsername - PASSED (4486ms)
+[main] INFO com.ags.tests.BaseTest - 🧪 TC-04: Login With Invalid Password
+[main] INFO com.ags.pages.BasePage - Navigated to: https://the-internet.herokuapp.com/login
+[main] INFO com.ags.pages.BasePage - Filled text into: #username
+[main] INFO com.ags.pages.BasePage - Filled text into: #password
+[main] INFO com.ags.pages.BasePage - Clicked: button[type='submit']
+[main] INFO com.ags.tests.BaseTest - ✅ TC-04 Passed
+]]></system-err>
+  </testcase>
+  <testcase name="testLoginWithEmptyCredentials" classname="com.ags.tests.LoginTest" time="3.544">
+    <system-err><![CDATA[[main] INFO com.ags.helpers.APIHelper - Test completed: testLoginWithInvalidPassword - PASSED (4514ms)
+[main] INFO com.ags.tests.BaseTest - 🧪 TC-05: Login With Empty Credentials
+[main] INFO com.ags.pages.BasePage - Navigated to: https://the-internet.herokuapp.com/login
+[main] INFO com.ags.pages.BasePage - Clicked: button[type='submit']
+[main] INFO com.ags.tests.BaseTest - ✅ TC-05 Passed
+]]></system-err>
+  </testcase>
+  <testcase name="testLogoutFunctionality" classname="com.ags.tests.LoginTest" time="6.046">
+    <system-err><![CDATA[[main] INFO com.ags.helpers.APIHelper - Test completed: testLoginWithEmptyCredentials - PASSED (3545ms)
+[main] INFO com.ags.tests.BaseTest - 🧪 TC-06: Logout Functionality
+[main] INFO com.ags.pages.BasePage - Navigated to: https://the-internet.herokuapp.com/login
+[main] INFO com.ags.pages.BasePage - Filled text into: #username
+[main] INFO com.ags.pages.BasePage - Filled text into: #password
+[main] INFO com.ags.pages.BasePage - Clicked: button[type='submit']
+[main] INFO com.ags.pages.BasePage - Clicked: a[href='/logout']
+[main] INFO com.ags.tests.BaseTest - ✅ TC-06 Passed
+]]></system-err>
+  </testcase>
+</testsuite>

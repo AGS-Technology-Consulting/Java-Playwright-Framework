@@ -1,0 +1,4 @@
+com/ags/helpers/APIHelper.class
+com/ags/config/Config.class
+com/ags/pages/BasePage.class
+com/ags/pages/LoginPage.class

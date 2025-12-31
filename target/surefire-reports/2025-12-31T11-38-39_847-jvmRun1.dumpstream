@@ -1,0 +1,78 @@
+# Created at 2025-12-31T11:38:41.336
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Downloading Firefox 131.0 (playwright build v1465)[2m from https://playwright.azureedge.net/builds/firefox/1465/firefox-mac-arm64.zip[22m'.
+
+# Created at 2025-12-31T11:38:44.124
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|                                                                                |   0% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:38:46.364
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■                                                                        |  10% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:38:48.563
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■                                                                |  20% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:38:50.935
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:38:53.232
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:38:55.428
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:38:57.820
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:39:00.439
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:39:03.331
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:39:06.687
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:39:07.412
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 80.6 MiB'.
+
+# Created at 2025-12-31T11:39:07.412
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Firefox 131.0 (playwright build v1465) downloaded to /Users/pravingamit/Library/Caches/ms-playwright/firefox-1465'.
+
+# Created at 2025-12-31T11:39:09.078
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Downloading Webkit 18.0 (playwright build v2083)[2m from https://playwright.azureedge.net/builds/webkit/2083/webkit-mac-15-arm64.zip[22m'.
+
+# Created at 2025-12-31T11:39:13.883
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|                                                                                |   0% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:15.666
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■                                                                        |  10% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:17.457
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■                                                                |  20% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:19.988
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:21.968
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:24.102
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:26.442
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:28.303
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:30.011
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:31.850
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:33.600
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 62 MiB'.
+
+# Created at 2025-12-31T11:39:36.577
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Webkit 18.0 (playwright build v2083) downloaded to /Users/pravingamit/Library/Caches/ms-playwright/webkit-2083'.
+

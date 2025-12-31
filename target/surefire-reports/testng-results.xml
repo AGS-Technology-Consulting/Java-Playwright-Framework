@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-31T11:48:02 IST" name="Playwright Java Test Suite" finished-at="2025-12-31T11:48:29 IST" duration-ms="27062">
+    <groups>
+      <group name="negative">
+        <method signature="LoginTest.testLoginWithInvalidUsername()[pri:3, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithInvalidUsername" class="com.ags.tests.LoginTest"/>
+        <method signature="LoginTest.testLoginWithInvalidPassword()[pri:4, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithInvalidPassword" class="com.ags.tests.LoginTest"/>
+      </group> <!-- negative -->
+      <group name="regression">
+        <method signature="LoginTest.testLoginWithInvalidPassword()[pri:4, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithInvalidPassword" class="com.ags.tests.LoginTest"/>
+        <method signature="LoginTest.testLogoutFunctionality()[pri:6, instance:com.ags.tests.LoginTest@1df82230]" name="testLogoutFunctionality" class="com.ags.tests.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.testVerifyLoginPageElements()[pri:1, instance:com.ags.tests.LoginTest@1df82230]" name="testVerifyLoginPageElements" class="com.ags.tests.LoginTest"/>
+        <method signature="LoginTest.testLoginWithValidCredentials()[pri:2, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithValidCredentials" class="com.ags.tests.LoginTest"/>
+        <method signature="LoginTest.testLoginWithInvalidUsername()[pri:3, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithInvalidUsername" class="com.ags.tests.LoginTest"/>
+        <method signature="LoginTest.testLoginWithEmptyCredentials()[pri:5, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithEmptyCredentials" class="com.ags.tests.LoginTest"/>
+      </group> <!-- smoke -->
+      <group name="positive">
+        <method signature="LoginTest.testLoginWithValidCredentials()[pri:2, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithValidCredentials" class="com.ags.tests.LoginTest"/>
+        <method signature="LoginTest.testLogoutFunctionality()[pri:6, instance:com.ags.tests.LoginTest@1df82230]" name="testLogoutFunctionality" class="com.ags.tests.LoginTest"/>
+      </group> <!-- positive -->
+      <group name="ui-validation">
+        <method signature="LoginTest.testVerifyLoginPageElements()[pri:1, instance:com.ags.tests.LoginTest@1df82230]" name="testVerifyLoginPageElements" class="com.ags.tests.LoginTest"/>
+      </group> <!-- ui-validation -->
+      <group name="validation">
+        <method signature="LoginTest.testLoginWithEmptyCredentials()[pri:5, instance:com.ags.tests.LoginTest@1df82230]" name="testLoginWithEmptyCredentials" class="com.ags.tests.LoginTest"/>
+      </group> <!-- validation -->
+    </groups>
+    <test started-at="2025-12-31T11:48:02 IST" name="Login Tests" finished-at="2025-12-31T11:48:29 IST" duration-ms="27062">
+      <class name="com.ags.tests.LoginTest">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:00 IST" name="beforeSuite" finished-at="2025-12-31T11:48:02 IST" duration-ms="1544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:02 IST" name="beforeMethod" finished-at="2025-12-31T11:48:02 IST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:02 IST" name="setupTest" finished-at="2025-12-31T11:48:02 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method signature="testVerifyLoginPageElements()[pri:1, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:02 IST" name="testVerifyLoginPageElements" finished-at="2025-12-31T11:48:06 IST" duration-ms="3490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyLoginPageElements -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:06 IST" name="afterMethod" finished-at="2025-12-31T11:48:06 IST" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testVerifyLoginPageElements status=SUCCESS method=LoginTest.testVerifyLoginPageElements()[pri:1, instance:com.ags.tests.LoginTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:06 IST" name="beforeMethod" finished-at="2025-12-31T11:48:06 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginWithValidCredentials()[pri:2, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:06 IST" name="testLoginWithValidCredentials" finished-at="2025-12-31T11:48:10 IST" duration-ms="4575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithValidCredentials -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:06 IST" name="setupTest" finished-at="2025-12-31T11:48:06 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:10 IST" name="afterMethod" finished-at="2025-12-31T11:48:10 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCredentials status=SUCCESS method=LoginTest.testLoginWithValidCredentials()[pri:2, instance:com.ags.tests.LoginTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:10 IST" name="beforeMethod" finished-at="2025-12-31T11:48:10 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginWithInvalidUsername()[pri:3, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:10 IST" name="testLoginWithInvalidUsername" finished-at="2025-12-31T11:48:15 IST" duration-ms="4485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidUsername -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:10 IST" name="setupTest" finished-at="2025-12-31T11:48:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:15 IST" name="afterMethod" finished-at="2025-12-31T11:48:15 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithInvalidUsername status=SUCCESS method=LoginTest.testLoginWithInvalidUsername()[pri:3, instance:com.ags.tests.LoginTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:15 IST" name="beforeMethod" finished-at="2025-12-31T11:48:15 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginWithInvalidPassword()[pri:4, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:15 IST" name="testLoginWithInvalidPassword" finished-at="2025-12-31T11:48:19 IST" duration-ms="4513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithInvalidPassword -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:15 IST" name="setupTest" finished-at="2025-12-31T11:48:15 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:19 IST" name="afterMethod" finished-at="2025-12-31T11:48:19 IST" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithInvalidPassword status=SUCCESS method=LoginTest.testLoginWithInvalidPassword()[pri:4, instance:com.ags.tests.LoginTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:19 IST" name="beforeMethod" finished-at="2025-12-31T11:48:19 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLoginWithEmptyCredentials()[pri:5, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:19 IST" name="testLoginWithEmptyCredentials" finished-at="2025-12-31T11:48:23 IST" duration-ms="3544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginWithEmptyCredentials -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:19 IST" name="setupTest" finished-at="2025-12-31T11:48:19 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:23 IST" name="afterMethod" finished-at="2025-12-31T11:48:23 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithEmptyCredentials status=SUCCESS method=LoginTest.testLoginWithEmptyCredentials()[pri:5, instance:com.ags.tests.LoginTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:23 IST" name="beforeMethod" finished-at="2025-12-31T11:48:23 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testLogoutFunctionality()[pri:6, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:23 IST" name="testLogoutFunctionality" finished-at="2025-12-31T11:48:29 IST" duration-ms="6046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutFunctionality -->
+        <test-method is-config="true" signature="setupTest()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:23 IST" name="setupTest" finished-at="2025-12-31T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:29 IST" name="afterMethod" finished-at="2025-12-31T11:48:29 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogoutFunctionality status=SUCCESS method=LoginTest.testLogoutFunctionality()[pri:6, instance:com.ags.tests.LoginTest@1df82230] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.ags.tests.LoginTest@1df82230]" started-at="2025-12-31T11:48:29 IST" name="afterSuite" finished-at="2025-12-31T11:48:29 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.ags.tests.LoginTest -->
+    </test> <!-- Login Tests -->
+  </suite> <!-- Playwright Java Test Suite -->
+</testng-results>

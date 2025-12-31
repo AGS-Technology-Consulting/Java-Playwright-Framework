@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Playwright Java Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Login Tests(failed)" verbose="0">
+    <classes>
+      <class name="com.ags.tests.LoginTest">
+        <methods>
+          <include name="testLoginWithInvalidPassword"/>
+          <include name="beforeMethod"/>
+          <include name="testLogoutFunctionality"/>
+          <include name="testLoginWithInvalidUsername"/>
+          <include name="beforeSuite"/>
+          <include name="setupTest"/>
+          <include name="testLoginWithValidCredentials"/>
+          <include name="afterSuite"/>
+          <include name="testLoginWithEmptyCredentials"/>
+          <include name="afterMethod"/>
+          <include name="testVerifyLoginPageElements"/>
+        </methods>
+      </class> <!-- com.ags.tests.LoginTest -->
+    </classes>
+  </test> <!-- Login Tests(failed) -->
+</suite> <!-- Failed suite [Playwright Java Test Suite] -->
