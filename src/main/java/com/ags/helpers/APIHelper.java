@@ -63,17 +63,42 @@ public class APIHelper {
             
             String response = postRequest("/api/pipeline-runs/", payload);
             
-            if (response != null) {
-                @SuppressWarnings("unchecked")
-                Map<String, Object> responseMap = objectMapper.readValue(response, Map.class);
-                pipelineRunId = responseMap.get("id").toString();
-                logger.info("✅ API-1 SUCCESS: Pipeline Run Created");
-                logger.info("🆔 Pipeline Run ID: {}", pipelineRunId);
+            if (response != null && !response.trim().isEmpty()) {
+                try {
+                    @SuppressWarnings("unchecked")
+                    Map<String, Object> responseMap = objectMapper.readValue(response, Map.class);
+                    
+                    // Try to get ID from different possible fields
+                    Object idObj = responseMap.get("id");
+                    if (idObj == null) {
+                        idObj = responseMap.get("_id");
+                    }
+                    if (idObj == null) {
+                        idObj = responseMap.get("pipeline_run_id");
+                    }
+                    
+                    if (idObj != null) {
+                        pipelineRunId = idObj.toString();
+                        logger.info("✅ API-1 SUCCESS: Pipeline Run Created");
+                        logger.info("🆔 Pipeline Run ID: {}", pipelineRunId);
+                    } else {
+                        logger.warn("⚠️  API-1 WARNING: Response received but no ID found");
+                        logger.debug("Response: {}", response);
+                    }
+                } catch (Exception e) {
+                    logger.error("❌ API-1 ERROR parsing response: {}", e.getMessage());
+                    logger.debug("Response was: {}", response);
+                }
+            } else {
+                logger.warn("⚠️  API-1 WARNING: Empty or null response from API");
             }
             
             logger.info("=".repeat(63) + "\n");
         } catch (Exception e) {
             logger.error("❌ API-1 ERROR: {}", e.getMessage());
+            if (logger.isDebugEnabled()) {
+                logger.debug("Full error:", e);
+            }
         }
     }
     
@@ -113,8 +138,10 @@ public class APIHelper {
             payload.put("started_at", Instant.ofEpochMilli(testStartTime).toString());
             payload.put("completed_at", Instant.now().toString());
             
-            postRequest("/api/test-cases/", payload);
-            logger.info("✅ API-3: Test case created - {} ({}) - {}ms", testName, status, duration);
+            String response = postRequest("/api/test-cases/", payload);
+            if (response != null) {
+                logger.info("✅ API-3: Test case created - {} ({}) - {}ms", testName, status, duration);
+            }
         } catch (Exception e) {
             logger.error("❌ API-3 ERROR: {}", e.getMessage());
         }
@@ -173,10 +200,14 @@ public class APIHelper {
             post.setEntity(new StringEntity(jsonPayload, ContentType.APPLICATION_JSON));
             
             return client.execute(post, response -> {
-                if (response.getCode() >= 200 && response.getCode() < 300) {
-                    return new String(response.getEntity().getContent().readAllBytes());
+                int statusCode = response.getCode();
+                if (statusCode >= 200 && statusCode < 300) {
+                    byte[] content = response.getEntity().getContent().readAllBytes();
+                    return new String(content);
+                } else {
+                    logger.warn("API returned status code: {}", statusCode);
+                    return null;
                 }
-                return null;
             });
         }
     }
@@ -193,7 +224,13 @@ public class APIHelper {
             String jsonPayload = objectMapper.writeValueAsString(payload);
             patch.setEntity(new StringEntity(jsonPayload, ContentType.APPLICATION_JSON));
             
-            client.execute(patch);
+            client.execute(patch, response -> {
+                int statusCode = response.getCode();
+                if (statusCode < 200 || statusCode >= 300) {
+                    logger.warn("PATCH returned status code: {}", statusCode);
+                }
+                return null;
+            });
         }
     }
 }
